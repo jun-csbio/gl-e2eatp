@@ -33,27 +33,38 @@ Identification of ATP-binding residues in proteins is of paramount importance fo
 * There are four columns in each prediction result file. The 1st column is the residue index. The 2nd column is the residue type. The 3rd column is the predicted probablity of the corresponding residue belonging to the class of ATP-binding residues. The 4th column is the prediction result ('B' and 'N' mean the predicted ATP-binding and non-ATP-binding residue, respectively). For example:
 
 ~~~
-Index    AA    Prob.
-    0     A    0.001
-    1     E    0.000
-    2     S    0.007
-    3     N    0.001
-    4     I    0.000
-    5     K    0.000
-    6     V    0.000
-    7     M    0.003
-    8     C    0.000
-    9     R    0.984
-   10     F    0.000
-   11     R    0.993
-   12     P    0.990
-   13     L    0.001
-   14     N    0.001
-   15     E    0.000
-   16     S    0.005
-   17     E    0.000
-   18     V    0.000
-   19     N    0.001
+Index    AA    Prob.    State
+    0     M    0.00001363
+    1     G    0.00000268
+    2     S    0.00001951
+    3     R    0.00014070
+    4     V    0.00003923
+    5     V    0.00006795
+    6     I    0.00009141
+    7     L    0.00016943
+    8     F    0.03583513
+    9     T    0.00035952
+   10     D    0.96167221
+   11     I    0.98409954
+   12     E    0.99114924
+   13     E    0.98829891
+   14     S    0.97349514
+   15     T    0.96523270
+   16     A    0.00146968
+   17     L    0.00024427
+   18     N    0.00119447
+   19     E    0.00041184
+   20     R    0.00037127
+   21     I    0.00092568
+   22     G    0.00079243
+   23     D    0.01414010
+   24     R    0.00164558
+   25     A    0.00008177
+   26     W    0.00263824
+   27     V    0.00299289
+   28     K    0.00018157
+   29     L    0.00128787
+   30     I    0.01475696
 ~~~
 
 ## Update History:
