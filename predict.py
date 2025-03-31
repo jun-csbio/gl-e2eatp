@@ -652,7 +652,7 @@ if __name__ == '__main__':
         filepath = "{}/{}.pred".format(args.savefolder, key)
         with open(filepath, 'w') as file_object:
             length = len(probs)
-            file_object.write("Index    AA    Prob.    State\n")
+            file_object.write("Index    AA    Prob.\n")
             for i in range(length):
                 aa = seq[i]
                 prob = probs[i]
