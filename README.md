@@ -19,7 +19,7 @@ Identification of ATP-binding residues in proteins is of paramount importance fo
 * If the package cannot work correctly on your computational cluster, you should install the dependencies via running the following commands:
 
 ~~~
-  $ pip install -r requirements.txt
+  $ conda env create -f conda.yaml
 ~~~
 
 ## Run example
