@@ -12,8 +12,8 @@ Identification of ATP-binding residues in proteins is of paramount importance fo
 * Download this repository at https://github.com/jun-csbio/gl-e2eatp.git. Then, uncompress it and run the following command lines on Linux System.
 
 ~~~
-  $ chmod 777 ./run.sh
-  $ ./run.sh
+  $ chmod 777 ./install.sh
+  $ ./install.sh
 ~~~
 
 * If the package cannot work correctly on your computational cluster, you should install the dependencies via running the following commands:
