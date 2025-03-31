@@ -29,7 +29,7 @@ Identification of ATP-binding residues in proteins is of paramount importance fo
 
 ## Result
 
-* The prediction result file (e.g., "3J8YK.pred") of each protein (e.g., 3J8YK) in your input fasta file (-seq_fa) could be found in the folder which you input as "-sf".
+* The prediction result file (e.g., "5D15B.pred") of each protein (e.g., 5D15B) in your input fasta file (-seq_fa) could be found in the folder which you input as "-sf".
 * There are three columns in each prediction result file. The 1st column is the residue index. The 2nd column is the residue type. The 3rd column is the predicted probablity of the corresponding residue belonging to the class of ATP-binding residues. For example:
 
 ~~~
