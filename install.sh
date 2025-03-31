@@ -9,7 +9,7 @@ if [ ! -f "./model/esm2_t48_15B_UR50D-contact-regression.pt" ]; then
 fi
 
 if [ ! -f "./model/gle2eatpm.pkl" ]; then
-	java -jar FileUnion.jar ./model/gle2eatpm ./model/gle2eatpm.pkl
+	java -jar ./model/FileUnion.jar ./model/gle2eatpm ./model/gle2eatpm.pkl
 fi
 
 echo "Installed."
